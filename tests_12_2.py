@@ -1,7 +1,7 @@
 from runner import Runner, Tournament
 from unittest import TestCase
 
-class RunnerTest(TestCase):
+class TournamentTest(TestCase):
     @classmethod
     def setUpClass(cls):
         cls.all_results = {}
