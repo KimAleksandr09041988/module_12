@@ -1,14 +1,6 @@
 from runner import Runner, Tournament
 from unittest import TestCase
 
-def largest(dict_: dict):
-    a = 0
-
-    for i in dict_.keys():
-        if a < i:
-            a = i
-    return a
-
 class RunnerTest(TestCase):
     @classmethod
     def setUpClass(cls):
