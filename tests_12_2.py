@@ -41,4 +41,4 @@ class TournamentTest(TestCase):
               [len(cls.all_results[str(len(cls.all_results) - 1)])] == 'Ник')
 
 if __name__ == '__main__':
-    RunnerTest()
+    TournamentTest()
