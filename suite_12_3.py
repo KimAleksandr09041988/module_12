@@ -1,5 +1,4 @@
-from test_12_1 import RunnerTest
-from tests_12_2 import TournamentTest
+from test_12_3 import RunnerTest, TournamentTest
 from unittest import TestSuite, TextTestRunner, TestLoader
 
 runnerTS = TestSuite()
